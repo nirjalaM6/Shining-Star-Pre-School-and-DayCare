@@ -25,7 +25,7 @@ function Header(){
             <div className="nav-menu">Home</div>
             <div className="nav-menu"><a href="./About">About</a></div>
             <div className="nav-menu">Academic</div>
-            <div className="nav-menu">Admission</div>
+          
             <div className="nav-menu">Contacts</div>
 </div>
 </div>

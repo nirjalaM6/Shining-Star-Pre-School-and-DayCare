@@ -7,7 +7,7 @@ function Home(){
         <div className="home-background">
         <div className="welcome-message">
             <p>Welcome TO</p> <div className="SSPS"> Shining Star Pre-School & Day-Care</div>
-            <div className="Admission-home">Admission</div>
+            <div className="Admission-home">ABadmission</div>
         </div>
         </div>
           <About></About>
