@@ -1,0 +1,42 @@
+.footer {
+    background-color: #2c3e50; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .topics {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .footer-box-1 h1 {
+    font-size: 50px; /* Set your desired font size */
+  }
+  
+  .footer-box-2,
+  .footer-box-3,
+  .footer-box-4 {
+    flex: 1; /* Equal width for all boxes */
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  .footer-box-2 h3,
+  .footer-box-3 h3,
+  .footer-box-4 h3 {
+    font-size: 25px; /* Set your desired font size */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  .footer-box-2 h6,
+  .footer-box-3 h6,
+  .footer-box-4 h6 {
+    margin: 5px 0; /* Adjust the margin as needed */
+  }
+  
+  /* Style links if needed */
+  .footer-box-3 h6:hover,
+  .footer-box-4 h6:hover {
+    color: #3498db; /* Set your desired link color on hover */
+  }
+  

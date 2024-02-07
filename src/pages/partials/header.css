@@ -1,0 +1,35 @@
+/* header.css */
+
+.header {
+  background-color: #2b2e82; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-ice {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.logo-ice img {
+  max-width: 100px; /* Set your desired maximum width for the logo */
+  height: auto;
+}
+
+.nav-menu {
+  margin: 0 10px; /* Adjust margin as needed */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Add hover effect for better user experience */
+.nav-menu:hover {
+  text-decoration: underline;
+}

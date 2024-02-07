@@ -1,0 +1,43 @@
+/* home.css */
+
+
+  
+  .Homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+    background-size: cover;
+    background-image: url('../images/backgroundimg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  .SSPS {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .Admission-home {
+    margin-top: 20px;
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Admission-home:hover {
+    background-color: #2575ae;
+  }
+  

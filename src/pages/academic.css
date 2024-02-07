@@ -1,0 +1,46 @@
+/* academic.css */
+
+.academic-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .academic-container h2 {
+    color: #3498db; /* Heading color */
+  }
+  
+  .academic-container h3 {
+    color: #333; /* Sub-heading color */
+  }
+  
+  .academic-container p,
+  .academic-container ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Text color */
+  }
+  
+  .academic-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Optional: Add some spacing for better readability */
+  .academic-container h2,
+  .academic-container h3,
+  .academic-container p,
+  .academic-container ul {
+    margin-bottom: 15px;
+  }
+  
+  /* Optional: Style links */
+  .academic-container a {
+    color: #3498db;
+    text-decoration: underline;
+  }
+  
+  .academic-container a:hover {
+    color: #2575ae; /* Change color on hover */
+  }
+  
