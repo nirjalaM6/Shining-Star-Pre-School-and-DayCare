@@ -1,0 +1,127 @@
+/* CSS for Admission Component */
+* {
+    box-sizing: border-box;
+  }
+.admission {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Adjust to column layout */
+    align-items: center; /* Center content horizontally */
+}
+.admission-image img{
+    width:100%;
+}
+.logo-ice img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Welcome-message {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Admission-Form h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* CSS for Admission Component */
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 21cm; /* A4 size */
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    margin-left: 200px;}
+
+.form-Header {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px;
+    width: 100%; /* Full width */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Center content horizontally */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.form-Header .logo-ice {
+    display: flex;
+    align-items: center;
+}
+
+.form-Header .logo-ice img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.form-Header .School-des {
+    text-align: center;
+    margin-right: 80px;
+}
+
+/* Rest of your CSS remains unchanged */
+
+
+.form-Header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.form-Header h5 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+form h1,
+form h3,
+form h6 {
+  margin-top: 15px;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+  width: calc(40% - 22px);
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+form input[type="checkbox"]
+{
+  width: calc(10% - 22px);
+padding: 5px;
+margin-bottom: 10px;
+margin-left:10px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 5px;
+display: inline-block;
+}
+#submit-botton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right:auto;
+    margin-top:10px
+}

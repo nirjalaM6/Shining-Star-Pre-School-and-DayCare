@@ -2,10 +2,15 @@
 
 import React from 'react';
 import './contact.css'
+import Footer from './partials/footer';
+import Header from './partials/header';
 
 function Contact() {
   return (
+    <div className="contact">
+      <Header></Header>
     <div className="contact-container">
+      
       <h2>Contact Us</h2>
 
       <p>
@@ -34,8 +39,9 @@ function Contact() {
           <button type="submit">Send Message</button>
         </form>
       </div>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
-
 export default Contact;

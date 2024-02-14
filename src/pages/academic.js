@@ -2,9 +2,13 @@
 
 import './academic.css'
 import React from 'react';
+import Header from './partials/header';
+import Footer from './partials/footer';
 
 function Academic() {
   return (
+    <div className="Academic">
+      <Header></Header>
     <div className="academic-container">
       
       <h2>Academic Programs</h2>
@@ -47,7 +51,8 @@ function Academic() {
         Regular communication, parent-teacher conferences, and special events provide
         opportunities for collaboration and a deeper understanding of your child's progress.
       </p>
-      
+      </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -2,15 +2,8 @@ import logo from '../../images/logo.jpeg'
 import './header.css';
 import '../About';
 import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
-const root = createRoot(document.getElementById("root"));
-
-root.render(
-  <BrowserRouter>
-    {/* The rest of your app goes here */}
-  </BrowserRouter>
-);
 
 function Header(){
     return <div className= "header">
@@ -22,11 +15,11 @@ function Header(){
 
             <h1>Shining Star Preschool & Day Care</h1>
 
-            <div className="nav-menu">Home</div>
-            <div className="nav-menu"><a href="./About">About</a></div>
-            <div className="nav-menu">Academic</div>
-          
-            <div className="nav-menu">Contacts</div>
+            <div className="nav-menu"><Link to={`/`} className="Link">Home</Link></div>
+            <div className="nav-menu"><Link to={`/about`} className="Link">About</Link></div>
+            <div className="nav-menu"><Link to={`/academic`} className="Link">Academic</Link></div>
+            <div className="nav-menu"><Link to={`/admission`} className="Link">Admission</Link></div>
+            <div className="nav-menu"><Link to={`/contact`} className="Link">Contacts</Link></div>
 </div>
 </div>
 
